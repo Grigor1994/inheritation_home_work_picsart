@@ -13,6 +13,8 @@ public class Main {
         PhoneService phoneService = new PhoneService();
         TvService tvService = new TvService();
 
+        System.out.println("Phones and smart phones");
+
         SmartPhone smartPhone = phoneService.createSmartPhone("Iphone", "11 Pro", "56151L459I", 2019,
                 190, "IOS", 5400, "Super Amoled", "4G+", true,
                 true, false, true,
@@ -41,6 +43,8 @@ public class Main {
         mobilePhone.turOff();
 
         System.out.println("---------------------------------------------");
+
+        System.out.println("Tv's and smart tv's.");
 
         TV regularTv = tvService.createTv("LG", "43UJ630V", "TV15632EL53", 2009, 5,
                 "LCD", 75, 43, "MVA ");
