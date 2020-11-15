@@ -22,7 +22,7 @@ public class ElectronicItem {
         System.out.println("Turn on");
     }
 
-    public void turOff() {
+    public void turnOff() {
         System.out.println("Switch off");
     }
 

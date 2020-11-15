@@ -27,7 +27,7 @@ public class Main {
         smartPhone.hangUp();
         smartPhone.takePhoto();
         smartPhone.shootVideo();
-        smartPhone.turOff();
+        smartPhone.turnOff();
         System.out.println("---------------------------------------------");
         MobilePhone mobilePhone = phoneService.createMobilePhone("Nokia", "6233", "744545L44E",
                 2005, 103, "S40", 900,
@@ -40,7 +40,7 @@ public class Main {
         mobilePhone.call("Eric");
         mobilePhone.hangUp();
         mobilePhone.takePhoto();
-        mobilePhone.turOff();
+        mobilePhone.turnOff();
 
         System.out.println("---------------------------------------------");
 
@@ -51,7 +51,7 @@ public class Main {
         regularTv.printTvInfo();
         regularTv.turnOn();
         regularTv.showTvProgram();
-        regularTv.turOff();
+        regularTv.turnOff();
 
         System.out.println("-------------------------------------------------");
         SmartTV smartTV = tvService.createSmartTv("Sony", "ZG9 | MASTER Series", "S15894777LE7", 2020, 7,
@@ -61,6 +61,6 @@ public class Main {
         smartTV.showTvProgram();
         smartTV.playGame();
         smartTV.entryToInternet();
-        smartTV.turOff();
+        smartTV.turnOff();
     }
 }
