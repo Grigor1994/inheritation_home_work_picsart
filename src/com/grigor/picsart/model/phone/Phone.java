@@ -2,7 +2,7 @@ package com.grigor.picsart.model.phone;
 
 import com.grigor.picsart.model.electronic.ElectronicItem;
 
-public class Phone extends ElectronicItem {
+public class Phone extends ElectronicItem implements CallService{
     public Phone(String brand, String model, String serialNumber, int produceYear, int weight, double cost) {
     }
 
@@ -10,10 +10,12 @@ public class Phone extends ElectronicItem {
         super(brand, model, serialNumber, produceYear, weight);
     }
 
+    @Override
     public void call(String name) {
         System.out.println("Calling " + name);
     }
 
+    @Override
     public void hangUp() {
         System.out.println("End call...");
     }
